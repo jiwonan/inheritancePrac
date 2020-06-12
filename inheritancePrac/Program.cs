@@ -19,22 +19,19 @@ namespace inheritancePrac
 
             foreach(var item in animals)
             {
+
                 item.Eat();
                 item.Sleep();
-            }
 
-            /*foreach(Dog dog in dogs)
-            {
-                dog.Eat();
-                dog.Bark();
-                dog.Sleep();
+                if (item is Dog)
+                {
+                    ((Dog)item).Bark();
+                }
+                else if(item is Cat)
+                {
+                    ((Cat)item).Meow();
+                }
             }
-            foreach (Dog dog in dogs)
-            {
-                dog.Eat();
-                dog.Bark();
-                dog.Sleep();
-            }*/
         }
     }
 }

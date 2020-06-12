@@ -15,7 +15,7 @@ namespace inheritancePrac
 
         public void Eat() { Console.WriteLine("냠냠"); }
         public void Sleep() { Console.WriteLine("쿨쿨"); }
-        public void Bark() { Console.WriteLine("냐옹~!!"); }
+        public void Meow() { Console.WriteLine("냐옹~!!"); }
 
 
     }
